@@ -8,5 +8,3 @@ for _ in range(n):
     a %= 10
     print( pow_list[a][(b-1) % len(pow_list[a])])
     
-    
-# %%
