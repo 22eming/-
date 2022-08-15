@@ -1,8 +1,8 @@
 xa, ya, xb, yb, xc, yc = map(int, input().split())
-
-if (xa-xb)/(ya-yb) == (xa-xc)/(ya-yc):
+# 기울기 비교
+if (ya-yb)*(xa-xc) == (xa-xb)*(ya-yc):
     print(-1.0)
-
+# 선분 길이 최대 최소 구하기
 else:
     def return_len(x1, y1, x2, y2):
         return ((x1 - x2)**2 + (y1 - y2)**2)**0.5
