@@ -9,6 +9,7 @@
 - [백준](#baekjoon)
 - [프로그래머스](#programmers)
 
+  - [Kakao](#kakao)
   - [Level 1](#level-1) :egg:
   - [Level 2](#level-2) :hatching_chick:
   - [Level 3](#level-3) :hatched_chick:
@@ -78,8 +79,29 @@
   | [9370](https://www.acmicpc.net/problem/9370)   | [미확인 도착지](baekjoon/baekjoon_9370.py)               |
   | [1463](https://www.acmicpc.net/problem/1463)   | [1로 만들기](baekjoon/baekjoon_1463.py)                  |
 
-  ## Programmers
+  ## Programmers 🐦︎
 
-  | 문제                                                                          | 문제 제목                                                    | 알고리즘 |
-  | :---------------------------------------------------------------------------- | ------------------------------------------------------------ | -------- |
-  | [나머지가 1](https://school.programmers.co.kr/learn/courses/30/lessons/87389) | [나머지가 1이 되는 수 찾기](programmers/Level1/나머지가1.py) |
+  ### Level 1 :egg:
+
+  | 문제                                                                                    | 문제 제목                                                      | 알고리즘 |
+  | :-------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------- |
+  | [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)       | [신고결과받기](programmers/Level1/신고결과받기.py)             |
+  | [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)  | [성격 유형 검사하기](programmers/Level1/성격유형검사하기.py)   |
+  | [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410)     | [신규아이디추천](programmers/Level1/신규아이디추천.py)         |
+  | [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) | [크레인인형뽑기게임](programmers/Level1/크레인인형뽑기게임.py) |
+  | [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)        | [키패드누르기](programmers/Level1/키패드누르기.py)             |
+  | [다트게임](https://school.programmers.co.kr/learn/courses/30/lessons/17682)             | [다트게임](programmers/Level1/다트게임.py)                     |
+  | [실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889)               | [실패율](programmers/Level1/실패율.py)                         |
+  | [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) | [숫자문자열과영단어](programmers/Level1/숫자문자열과영단어.py) |
+  | [비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)             | [비밀지도](programmers/Level1/비밀지도.py)                     |
+  | [나머지가 1](https://school.programmers.co.kr/learn/courses/30/lessons/87389)           | [나머지가 1이 되는 수 찾기](programmers/Level1/나머지가1.py)   |
+
+  ### Level 2
+
+  ### Level 3
+
+  ### Level 4
+
+  ### Level 5
+
+  ### Kakao
