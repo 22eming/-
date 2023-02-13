@@ -1,18 +1,17 @@
+from collections import Counter
+
 def solution(topping):
-    def check_topping(topping):
-        split_topping = []
-        set_topping = set()
-        for t in topping:
-            if t not in set_topping:
-                set_topping.add(t)
-                split_topping.append(len(set_topping))
-            else:
-                split_topping.append(split_topping[-1])
-        return split_topping
-    
-    left = check_topping(topping)[:-1]
-    right = check_topping(topping[::-1])[::-1][1:]
-    
-    cnt = [i==j for i, j in zip(left, right)]
-        
-    return sum(cnt)
+    answer = 0
+    dic = Counter(topping)
+    set_dic = set()
+    answer = 0
+
+    for i in topping:
+        dic[i] -= 1
+        set_dic.add(i)
+        if dic[i] == 0:
+            dic.pop(i)
+        if len(dic) == len(set_dic):
+            answer += 1
+
+    return answer
